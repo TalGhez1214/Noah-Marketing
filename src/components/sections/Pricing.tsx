@@ -5,7 +5,7 @@ export function Pricing() {
   const plans = [
     {
       name: 'Starter',
-      price: '$0',
+      price: '$20',
       period: 'month',
       description: 'Perfect for testing and small projects',
       features: [

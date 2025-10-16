@@ -1,6 +1,8 @@
 import { motion } from 'motion/react';
 import { Mail, Shield, Zap, Eye } from 'lucide-react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
+// import talImg from 'src/assets/founders/Tal_photo.jpg';
+// import nadavImg from 'src/assets/founders/Nadav_photo.jpg';
 
 export function About() {
   const values = [
@@ -26,13 +28,13 @@ export function About() {
       name: 'Tal Ghez',
       role: 'CEO & CFO & CTO & COO',
       bio: 'The king of the world basically ',
-      image: 'https://images.unsplash.com/photo-1690383922009-477ea4edc20d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwc3RhcnR1cCUyMHRlYW18ZW58MXx8fHwxNzYwMzU1MTA4fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: '/images/founders/tal.jpg' ,
     },
     {
       name: 'Nadav Antman Ron',
       role: 'Junior',
       bio: 'Actor, Fashion Model, Physicist, AI enthusiastic',
-      image: 'https://images.unsplash.com/photo-1690383922009-477ea4edc20d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNoJTIwc3RhcnR1cCUyMHRlYW18ZW58MXx8fHwxNzYwMzU1MTA4fDA&ixlib=rb-4.1.0&q=80&w=1080',
+      image: '/images/founders/nadav.jpg',
     },
   ];
 
