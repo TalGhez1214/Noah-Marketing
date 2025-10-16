@@ -16,7 +16,7 @@ export function UseCases() {
       title: 'Knowledge Bases',
       description: 'Help users find answers faster. Noah AI understands your documentation and provides instant, contextual responses to complex queries.',
       benefits: ['Reduce support tickets by 28%', 'Improve user onboarding', 'Better self-service experience'],
-      image: 'https://images.unsplash.com/photo-1737358054558-2d1d81018bb2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWNobmljYWwlMjBkb2N1bWVudGF0aW9ufGVufDF8fHx8MTc2MDQyNDAxM3ww&ixlib=rb-4.1.0&q=80&w=1080',
+      image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxuYXR1cmUlMjBtYWdhemluZSUyMGxhcHRvcHxlbnwxfHx8fDE3NjA2MDE4NzR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
     },
     {
       icon: <GraduationCap className="w-8 h-8" />,

@@ -5,7 +5,7 @@ export function Pricing() {
   const plans = [
     {
       name: 'Starter',
-      price: '$20',
+      price: '$19',
       period: 'month',
       description: 'Perfect for testing and small projects',
       features: [
@@ -88,9 +88,9 @@ export function Pricing() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="text-center mt-12"
         >
-          <p className="text-sm text-muted-foreground">
+          {/* <p className="text-sm text-muted-foreground">
             All plans include 14-day free trial. No credit card required.
-          </p>
+          </p> */}
         </motion.div>
       </div>
     </section>
